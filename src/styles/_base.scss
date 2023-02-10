@@ -10,12 +10,23 @@
   font-size: 18px;
 }
 
+@font-face {
+    font-family: bladerunner;
+    src: url(../fonts/BLADRMF.TTF);
+}
+
+
+@font-face {
+    font-family: HelveticaNowLight;
+    src: url(../fonts/HelveticaNowText-Light.otf);
+}
+
 body {
   margin: 0;
   padding: 0;
   font-weight: 300;
   background-color: $color-bg;
-  font-family: acumin-pro, sans-serif;
+  font-family: bladerunner;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;

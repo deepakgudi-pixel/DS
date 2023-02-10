@@ -35,7 +35,6 @@ main {
 
       .content__item-title {
         font-size: clamp(2rem, 3.25vw, 1.85rem);
-        // font-family: ;
         font-weight: 300;
         margin: 0 0 0.5rem;
 
@@ -64,6 +63,7 @@ main {
 
       .content__item-caption {
         margin-top: 0.75rem;
+        font-family: HelveticaNowLight;
       }
     }
   }
